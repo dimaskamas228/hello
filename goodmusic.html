@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GoodMusic!</title>
+    <style>
+        body {
+            background-color: palegoldenrod;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        h1 {
+            color: darkslategrey;
+            font-size: 48px;
+            margin-bottom: 5px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .song-container {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            background-color: rgba(255, 255, 255, 0.2); /* Легкий фон для блоку пісні */
+            border-radius: 15px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2 {
+            color: #2f4f4f;
+            margin-top: 0;
+        }
+        audio {
+            display: block;
+            margin: 15px auto;
+        }
+        button {
+            border: 3px solid #2f4f4f;
+            border-radius: 50px;
+            color: paleturquoise;
+            background-color: #e67e22;
+            padding: 0 30px;
+            height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+        button:hover {
+            color: whitesmoke;
+            background-color: #d35400;
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        button:active {
+            transform: scale(0.95); /* Кнопка трохи зменшується при натисканні */
+            box-shadow: inset 0 4px 8px rgba(0,0,0,0.3); /* З'являється внутрішня тінь */
+            background-color: #bf4d00; /* Колір стає ще темнішим */
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>GoodMusic!</h1>
+    <p>A music player and downloader for everyone.</p>
+
+    <div class="song-container">
+        <h2>GD in menu music</h2>
+        <audio controls><source src="584131_Geometry-Dash-Menu-Theme.mp3" type="audio/mpeg"></audio>
+        <a href="584131_Geometry-Dash-Menu-Theme.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>NCS Blank</h2>
+        <audio controls><source src="blank.wav" type="audio/wav"></audio>
+        <a href="blank.wav" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Cubic Z - Diamond Ortiz</h2>
+        <audio controls><source src="Cubic Z - Diamond Ortiz.mp3" type="audio/mpeg"></audio>
+        <a href="Cubic Z - Diamond Ortiz.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Dansez</h2>
+        <audio controls><source src="Dansez.mp4" type="audio/mp4"></audio>
+        <a href="Dansez.mp4" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>NCS Feel Good</h2>
+        <audio controls><source src="feelgood.mp3" type="audio/mpeg"></audio>
+        <a href="feelgood.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>NCS Firefly</h2>
+        <audio controls><source src="firefly.mp3" type="audio/mpeg"></audio>
+        <a href="firefly.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>GAZAN - Мам я хочу бути як Газан</h2>
+        <audio controls><source src="Gazan.mp3" type="audio/mpeg"></audio>
+        <a href="Gazan.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Invisible</h2>
+        <audio controls><source src="invisible.mp3" type="audio/mpeg"></audio>
+        <a href="invisible.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>ivanzolo2004 - Баобaб</h2>
+        <audio controls><source src="baobab.mp3" type="audio/mpeg"></audio>
+        <a href="baobab.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>NCS Lets Go</h2>
+        <audio controls><source src="letsgo.mp3" type="audio/mpeg"></audio>
+        <a href="letsgo.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Melstroj - Am am Baby</h2>
+        <audio controls><source src="Melstroj_-_Am_am_Baby_mввama_(SkySound.cc).mp3" type="audio/mpeg"></audio>
+        <a href="Melstroj_-_Am_am_Baby_mввama_(SkySound.cc).mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Rammstein - Du Hast</h2>
+        <audio controls><source src="rammstein-du-hast (1).mp3" type="audio/mpeg"></audio>
+        <a href="rammstein-du-hast (1).mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>NCS Sky High</h2>
+        <audio controls><source src="skyhigh.mp3" type="audio/mpeg"></audio>
+        <a href="skyhigh.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Spring in my Step</h2>
+        <audio controls><source src="spring-in-my-step---silent-partner_[Pro-Sound.org].mp3" type="audio/mpeg"></audio>
+        <a href="spring-in-my-step---silent-partner_[Pro-Sound.org].mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Sigma Boy x Brainrot</h2>
+        <audio controls><source src="Песня - Sigma Boy x Brainrot Extinction.mp3" type="audio/mpeg"></audio>
+        <a href="Песня - Sigma Boy x Brainrot Extinction.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Vova</h2>
+        <audio controls><source src="myusli-ua-vova-ibash-ikh-blyat-(meloua.com) (1).mp3" type="audio/mpeg"></audio>
+        <a href="myusli-ua-vova-ibash-ikh-blyat-(meloua.com) (1).mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Yarik</h2>
+        <audio controls><source src="myusli-ua-yarik-bachok-potik-(meloua.com).mp3" type="audio/mpeg"></audio>
+        <a href="myusli-ua-yarik-bachok-potik-(meloua.com).mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>PlayDate</h2>
+        <audio controls><source src="Playdate - The Great North Sound Society.mp3" type="audio/mpeg"></audio>
+        <a href="Playdate - The Great North Sound Society.mp3" download><button>Download ⇥</button></a>
+    </div>
+
+    <div class="song-container">
+        <h2>Gazan - 67</h2>
+        <audio controls><source src="Gazan - 67 (Six Seven).mp3" type="audio/mpeg"></audio>
+        <a href="Gazan - 67 (Six Seven).mp3" download><button>Download ⇥</button></a>
+    </div>
+</body>
+</html>
